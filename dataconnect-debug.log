@@ -1,0 +1,12 @@
+I0503 19:55:08.085781    5416 load.go:37] Reloading schema and connectors...
+I0503 19:55:08.118527    5416 control.go:73] [/emulator/gamestoreapp 599c] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+I0503 19:55:08.137905    5416 collector.go:107] schema extensions wrote into "C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [71117B] 
+I0503 19:55:08.138964    5416 load.go:115] Finished reloading
+I0503 19:55:08.139972    5416 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0503 19:55:08.139972    5416 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I0503 19:55:13.654376    5416 control.go:73] [/emulator/gamestoreapp 47b9] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 

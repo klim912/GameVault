@@ -1,0 +1,949 @@
+[debug] [2025-05-03T16:55:00.113Z] ----------------------------------------------------------------------
+[debug] [2025-05-03T16:55:00.115Z] Command:       D:\NodeJS\node.exe C:\Users\dimad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-05-03T16:55:00.116Z] CLI Version:   14.2.2
+[debug] [2025-05-03T16:55:00.116Z] Platform:      win32
+[debug] [2025-05-03T16:55:00.116Z] Node Version:  v20.17.0
+[debug] [2025-05-03T16:55:00.116Z] Time:          Sat May 03 2025 19:55:00 GMT+0300 (за східноєвропейським літнім часом)
+[debug] [2025-05-03T16:55:00.116Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-03T16:55:00.325Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-03T16:55:00.326Z] > authorizing via signed-in user (dimadima10022004@gmail.com)
+[info] i  emulators: Starting emulators: auth, functions, dataconnect, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, dataconnect, extensions"}}
+[debug] [2025-05-03T16:55:00.329Z] Checked if tokens are valid: true, expires at: 1746294689898
+[debug] [2025-05-03T16:55:00.329Z] Checked if tokens are valid: true, expires at: 1746294689898
+[debug] [2025-05-03T16:55:00.330Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/steam-clone-app [none]
+[debug] [2025-05-03T16:55:01.198Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/steam-clone-app 200
+[debug] [2025-05-03T16:55:01.198Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/steam-clone-app {"projectNumber":"755180130134","projectId":"steam-clone-app","lifecycleState":"ACTIVE","name":"steam-clone-app","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-04-27T09:50:30.735189Z"}
+[debug] [2025-05-03T16:55:01.209Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-05-03T16:55:01.209Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  dataconnect: postgres server for dataconnect unable to start on port 5432, starting on 5433 instead. {"metadata":{"emulator":{"name":"dataconnect"},"message":"postgres server for dataconnect unable to start on port 5432, starting on 5433 instead."}}
+[debug] [2025-05-03T16:55:01.210Z] [dataconnect.postgres] postgres server for dataconnect only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-05-03T16:55:01.210Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5433}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-05-03T16:55:01.215Z] [hub] writing locator at C:\Users\dimad\AppData\Local\Temp\hub-steam-clone-app.json
+[debug] [2025-05-03T16:55:01.221Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-05-03T16:55:01.225Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-05-03T16:55:01.225Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-05-03T16:55:01.225Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-05-03T16:55:01.225Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5433}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2025-05-03T16:55:01.257Z] defaultcredentials: writing to file C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json
+[debug] [2025-05-03T16:55:01.259Z] Setting GAC to C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dimad\\AppData\\Roaming\\firebase\\dimadima10022004_gmail_com_application_default_credentials.json"}}
+[debug] [2025-05-03T16:55:01.259Z] Checked if tokens are valid: true, expires at: 1746294689898
+[debug] [2025-05-03T16:55:01.259Z] Checked if tokens are valid: true, expires at: 1746294689898
+[debug] [2025-05-03T16:55:01.259Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/steam-clone-app/adminSdkConfig [none]
+[debug] [2025-05-03T16:55:01.610Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/steam-clone-app/adminSdkConfig 200
+[debug] [2025-05-03T16:55:01.610Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/steam-clone-app/adminSdkConfig {"projectId":"steam-clone-app","storageBucket":"steam-clone-app.firebasestorage.app"}
+[debug] [2025-05-03T16:55:07.928Z] I0503 19:55:07.902027   16672 control.go:73] [/emulator/gamestoreapp c21c] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0503 19:55:07.902027   16672 control.go:73] [/emulator/gamestoreapp c21c] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-05-03T16:55:07.929Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-05-03T16:55:07.929Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-05-03T16:55:07.930Z] Starting Data Connect Emulator with command {"binary":"C:\\Users\\dimad\\.cache\\firebase\\emulators\\dataconnect-emulator-2.4.0.exe","args":["--logtostderr","-v=2","dev","--listen=127.0.0.1:9399,[::1]:9399","--config_dir=C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"C:\\\\Users\\\\dimad\\\\.cache\\\\firebase\\\\emulators\\\\dataconnect-emulator-2.4.0.exe\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=127.0.0.1:9399,[::1]:9399\",\"--config_dir=C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
+[info] i  dataconnect: Data Connect Emulator logging to dataconnect-debug.log {"metadata":{"emulator":{"name":"dataconnect"},"message":"Data Connect Emulator logging to \u001b[1mdataconnect-debug.log\u001b[22m"}}
+[info] i  dataconnect: Started up Postgres server, listening on {"address":"127.0.0.1","family":"IPv4","port":5433} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Started up Postgres server, listening on {\"address\":\"127.0.0.1\",\"family\":\"IPv4\",\"port\":5433}"}}
+[debug] [2025-05-03T16:55:08.076Z] [Data Connect] Connecting to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}...
+[debug] [2025-05-03T16:55:08.076Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-05-03T16:55:08.076Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5433/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"gamestoreapp","maxOpenConnections":1}
+[debug] [2025-05-03T16:55:08.078Z] *** [apiv2] error from fetch(http://127.0.0.1:9399/emulator/configure, {"headers":{},"method":"POST","body":"{\"connectionString\":\"postgres://127.0.0.1:5433/fdcdb?sslmode=disable\",\"database\":\"fdcdb\",\"serviceId\":\"gamestoreapp\",\"maxOpenConnections\":1}"}): FetchError: request to http://127.0.0.1:9399/emulator/configure failed, reason: connect ECONNREFUSED 127.0.0.1:9399
+[debug] [2025-05-03T16:55:08.078Z] [Data Connect] Retrying connectToPostgress call (1 of 3 attempts): FirebaseError: Data Connect emulator: undefined
+[debug] [2025-05-03T16:55:08.099Z] I0503 19:55:08.085781    5416 load.go:37] Reloading schema and connectors...
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0503 19:55:08.085781    5416 load.go:37] Reloading schema and connectors...\n"}}
+[debug] [2025-05-03T16:55:08.118Z] I0503 19:55:08.118527    5416 control.go:73] [/emulator/gamestoreapp 599c] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0503 19:55:08.118527    5416 control.go:73] [/emulator/gamestoreapp 599c] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-05-03T16:55:08.138Z] I0503 19:55:08.137905    5416 collector.go:107] schema extensions wrote into "C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [71117B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0503 19:55:08.137905    5416 collector.go:107] schema extensions wrote into \"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\dataconnect\\\\.dataconnect\\\\schema\"\nGenerated sources: prelude.gql [71117B] \n"}}
+[debug] [2025-05-03T16:55:08.139Z] I0503 19:55:08.138964    5416 load.go:115] Finished reloading
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0503 19:55:08.138964    5416 load.go:115] Finished reloading\n"}}
+[debug] [2025-05-03T16:55:08.140Z] I0503 19:55:08.139972    5416 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0503 19:55:08.139972    5416 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399\n"}}
+[debug] [2025-05-03T16:55:08.140Z] I0503 19:55:08.139972    5416 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0503 19:55:08.139972    5416 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399\n"}}
+[debug] [2025-05-03T16:55:10.084Z] [Data Connect] Connecting to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}...
+[debug] [2025-05-03T16:55:10.084Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-05-03T16:55:10.084Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5433/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"gamestoreapp","maxOpenConnections":1}
+[debug] [2025-05-03T16:55:10.092Z] Frontend message 
+[debug] [2025-05-03T16:55:10.094Z] Backend message AuthenticationResponse
+[debug] [2025-05-03T16:55:10.095Z] Backend message ParameterStatus
+[debug] [2025-05-03T16:55:10.095Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:10.095Z] Frontend message Query
+[debug] [2025-05-03T16:55:13.578Z] Q   ; 
+[debug] [2025-05-03T16:55:13.579Z] Backend message EmptyQuery
+[debug] [2025-05-03T16:55:13.579Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.587Z] Frontend message Query
+[debug] [2025-05-03T16:55:13.591Z] Q   lSELECT setting FROM pg_settings WHERE name IN ('server_version_num', 'crdb_version') ORDER BY name DESC 
+[debug] [2025-05-03T16:55:13.591Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.592Z] Backend message DataRow
+[debug] [2025-05-03T16:55:13.592Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.592Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.592Z] Frontend message Parse
+[debug] [2025-05-03T16:55:13.593Z] P   � 
+SELECT
+	nspname AS schema_name,
+	pg_catalog.obj_description(oid) AS comment
+FROM
+    pg_catalog.pg_namespace
+WHERE
+    nspname = $1
+ORDER BY
+    nspname   
+[debug] [2025-05-03T16:55:13.594Z] Backend message ParseComplete
+[debug] [2025-05-03T16:55:13.594Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.594Z] Frontend message Describe
+[debug] [2025-05-03T16:55:13.594Z] D   S 
+[debug] [2025-05-03T16:55:13.594Z] Backend message ParameterDescriptionMessage
+[debug] [2025-05-03T16:55:13.595Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.595Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.595Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.595Z] S   
+[debug] [2025-05-03T16:55:13.595Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.596Z] Frontend message Bind
+[debug] [2025-05-03T16:55:13.596Z] B           public  
+[debug] [2025-05-03T16:55:13.597Z] Backend message BindComplete
+[debug] [2025-05-03T16:55:13.597Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.597Z] Frontend message Execute
+[debug] [2025-05-03T16:55:13.598Z] E   	     
+[debug] [2025-05-03T16:55:13.598Z] Backend message DataRow
+[debug] [2025-05-03T16:55:13.599Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.599Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.599Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.599Z] S   
+[debug] [2025-05-03T16:55:13.599Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.600Z] Frontend message Parse
+[debug] [2025-05-03T16:55:13.600Z] P  / 
+SELECT
+	n.nspname AS schema_name,
+	e.enumtypid AS enum_id,
+	t.typname AS enum_name,
+	e.enumlabel AS enum_value
+FROM
+	pg_enum e
+	JOIN pg_type t ON e.enumtypid = t.oid
+	JOIN pg_namespace n ON t.typnamespace = n.oid
+WHERE
+    n.nspname IN ($1)
+ORDER BY
+    n.nspname, e.enumtypid, e.enumsortorder
+   
+[debug] [2025-05-03T16:55:13.600Z] Backend message ParseComplete
+[debug] [2025-05-03T16:55:13.601Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.601Z] Frontend message Describe
+[debug] [2025-05-03T16:55:13.601Z] D   S 
+[debug] [2025-05-03T16:55:13.601Z] Backend message ParameterDescriptionMessage
+[debug] [2025-05-03T16:55:13.602Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.602Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.602Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.602Z] S   
+[debug] [2025-05-03T16:55:13.602Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.603Z] Frontend message Bind
+[debug] [2025-05-03T16:55:13.604Z] B           public  
+[debug] [2025-05-03T16:55:13.604Z] Backend message BindComplete
+[debug] [2025-05-03T16:55:13.604Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.605Z] Frontend message Execute
+[debug] [2025-05-03T16:55:13.605Z] E   	     
+[debug] [2025-05-03T16:55:13.605Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.605Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.605Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.606Z] S   
+[debug] [2025-05-03T16:55:13.606Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.606Z] Frontend message Parse
+[debug] [2025-05-03T16:55:13.608Z] P  0 
+SELECT
+	t3.oid,
+	t1.table_schema,
+	t1.table_name,
+	pg_catalog.obj_description(t3.oid, 'pg_class') AS comment,
+	t4.partattrs AS partition_attrs,
+	t4.partstrat AS partition_strategy,
+	pg_get_expr(t4.partexprs, t4.partrelid) AS partition_exprs
+FROM
+	INFORMATION_SCHEMA.TABLES AS t1
+	JOIN pg_catalog.pg_namespace AS t2 ON t2.nspname = t1.table_schema
+	JOIN pg_catalog.pg_class AS t3 ON t3.relnamespace = t2.oid AND t3.relname = t1.table_name
+	LEFT JOIN pg_catalog.pg_partitioned_table AS t4 ON t4.partrelid = t3.oid
+	LEFT JOIN pg_depend AS t5 ON t5.classid = 'pg_catalog.pg_class'::regclass::oid AND t5.objid = t3.oid AND t5.deptype = 'e'
+WHERE
+	t1.table_type = 'BASE TABLE'
+	AND NOT COALESCE(t3.relispartition, false)
+	AND t1.table_schema IN ($1)
+	AND t5.objid IS NULL
+ORDER BY
+	t1.table_schema, t1.table_name
+   
+[debug] [2025-05-03T16:55:13.608Z] Backend message ParseComplete
+[debug] [2025-05-03T16:55:13.608Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.608Z] Frontend message Describe
+[debug] [2025-05-03T16:55:13.609Z] D   S 
+[debug] [2025-05-03T16:55:13.609Z] Backend message ParameterDescriptionMessage
+[debug] [2025-05-03T16:55:13.609Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.609Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.609Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.609Z] S   
+[debug] [2025-05-03T16:55:13.610Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.610Z] Frontend message Bind
+[debug] [2025-05-03T16:55:13.615Z] B           public  
+[debug] [2025-05-03T16:55:13.615Z] Backend message BindComplete
+[debug] [2025-05-03T16:55:13.615Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.615Z] Frontend message Execute
+[debug] [2025-05-03T16:55:13.617Z] E   	     
+[debug] [2025-05-03T16:55:13.617Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.617Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.617Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.618Z] S   
+[debug] [2025-05-03T16:55:13.618Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.620Z] Frontend message Query
+[debug] [2025-05-03T16:55:13.622Z] Q   %SELECT extname FROM pg_extension 
+[debug] [2025-05-03T16:55:13.622Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.623Z] Backend message DataRow
+[debug] [2025-05-03T16:55:13.623Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.623Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.623Z] Frontend message Parse
+[debug] [2025-05-03T16:55:13.624Z] P   � 
+SELECT
+	nspname AS schema_name,
+	pg_catalog.obj_description(oid) AS comment
+FROM
+    pg_catalog.pg_namespace
+WHERE
+    nspname = $1
+ORDER BY
+    nspname   
+[debug] [2025-05-03T16:55:13.624Z] Backend message ParseComplete
+[debug] [2025-05-03T16:55:13.624Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.624Z] Frontend message Describe
+[debug] [2025-05-03T16:55:13.625Z] D   S 
+[debug] [2025-05-03T16:55:13.625Z] Backend message ParameterDescriptionMessage
+[debug] [2025-05-03T16:55:13.625Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.625Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.625Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.626Z] S   
+[debug] [2025-05-03T16:55:13.626Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.626Z] Frontend message Bind
+[debug] [2025-05-03T16:55:13.627Z] B           public  
+[debug] [2025-05-03T16:55:13.627Z] Backend message BindComplete
+[debug] [2025-05-03T16:55:13.627Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.627Z] Frontend message Execute
+[debug] [2025-05-03T16:55:13.628Z] E   	     
+[debug] [2025-05-03T16:55:13.628Z] Backend message DataRow
+[debug] [2025-05-03T16:55:13.628Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.628Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.628Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.629Z] S   
+[debug] [2025-05-03T16:55:13.629Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.629Z] Frontend message Parse
+[debug] [2025-05-03T16:55:13.630Z] P  / 
+SELECT
+	n.nspname AS schema_name,
+	e.enumtypid AS enum_id,
+	t.typname AS enum_name,
+	e.enumlabel AS enum_value
+FROM
+	pg_enum e
+	JOIN pg_type t ON e.enumtypid = t.oid
+	JOIN pg_namespace n ON t.typnamespace = n.oid
+WHERE
+    n.nspname IN ($1)
+ORDER BY
+    n.nspname, e.enumtypid, e.enumsortorder
+   
+[debug] [2025-05-03T16:55:13.630Z] Backend message ParseComplete
+[debug] [2025-05-03T16:55:13.630Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.630Z] Frontend message Describe
+[debug] [2025-05-03T16:55:13.631Z] D   S 
+[debug] [2025-05-03T16:55:13.631Z] Backend message ParameterDescriptionMessage
+[debug] [2025-05-03T16:55:13.631Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.631Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.631Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.632Z] S   
+[debug] [2025-05-03T16:55:13.632Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.632Z] Frontend message Bind
+[debug] [2025-05-03T16:55:13.633Z] B           public  
+[debug] [2025-05-03T16:55:13.634Z] Backend message BindComplete
+[debug] [2025-05-03T16:55:13.634Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.634Z] Frontend message Execute
+[debug] [2025-05-03T16:55:13.635Z] E   	     
+[debug] [2025-05-03T16:55:13.635Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.635Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.635Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.635Z] S   
+[debug] [2025-05-03T16:55:13.635Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.636Z] Frontend message Parse
+[debug] [2025-05-03T16:55:13.637Z] P  0 
+SELECT
+	t3.oid,
+	t1.table_schema,
+	t1.table_name,
+	pg_catalog.obj_description(t3.oid, 'pg_class') AS comment,
+	t4.partattrs AS partition_attrs,
+	t4.partstrat AS partition_strategy,
+	pg_get_expr(t4.partexprs, t4.partrelid) AS partition_exprs
+FROM
+	INFORMATION_SCHEMA.TABLES AS t1
+	JOIN pg_catalog.pg_namespace AS t2 ON t2.nspname = t1.table_schema
+	JOIN pg_catalog.pg_class AS t3 ON t3.relnamespace = t2.oid AND t3.relname = t1.table_name
+	LEFT JOIN pg_catalog.pg_partitioned_table AS t4 ON t4.partrelid = t3.oid
+	LEFT JOIN pg_depend AS t5 ON t5.classid = 'pg_catalog.pg_class'::regclass::oid AND t5.objid = t3.oid AND t5.deptype = 'e'
+WHERE
+	t1.table_type = 'BASE TABLE'
+	AND NOT COALESCE(t3.relispartition, false)
+	AND t1.table_schema IN ($1)
+	AND t5.objid IS NULL
+ORDER BY
+	t1.table_schema, t1.table_name
+   
+[debug] [2025-05-03T16:55:13.637Z] Backend message ParseComplete
+[debug] [2025-05-03T16:55:13.637Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.637Z] Frontend message Describe
+[debug] [2025-05-03T16:55:13.637Z] D   S 
+[debug] [2025-05-03T16:55:13.637Z] Backend message ParameterDescriptionMessage
+[debug] [2025-05-03T16:55:13.638Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.638Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.638Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.638Z] S   
+[debug] [2025-05-03T16:55:13.638Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.639Z] Frontend message Bind
+[debug] [2025-05-03T16:55:13.642Z] B           public  
+[debug] [2025-05-03T16:55:13.642Z] Backend message BindComplete
+[debug] [2025-05-03T16:55:13.642Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.642Z] Frontend message Execute
+[debug] [2025-05-03T16:55:13.643Z] E   	     
+[debug] [2025-05-03T16:55:13.643Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.643Z] Filtered out a ReadyForQuery.
+[debug] [2025-05-03T16:55:13.643Z] Frontend message Sync
+[debug] [2025-05-03T16:55:13.644Z] S   
+[debug] [2025-05-03T16:55:13.644Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.644Z] Frontend message Query
+[debug] [2025-05-03T16:55:13.645Z] Q   %SELECT extname FROM pg_extension 
+[debug] [2025-05-03T16:55:13.645Z] Backend message RowDescriptionMessage
+[debug] [2025-05-03T16:55:13.645Z] Backend message DataRow
+[debug] [2025-05-03T16:55:13.645Z] Backend message CommandComplete
+[debug] [2025-05-03T16:55:13.645Z] Backend message ReadyForQuery
+[debug] [2025-05-03T16:55:13.654Z] I0503 19:55:13.654376    5416 control.go:73] [/emulator/gamestoreapp 47b9] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0503 19:55:13.654376    5416 control.go:73] [/emulator/gamestoreapp 47b9] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-05-03T16:55:13.663Z] <<< [apiv2][status] POST http://127.0.0.1:9399/emulator/configure 200
+[debug] [2025-05-03T16:55:13.663Z] <<< [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {}
+[debug] [2025-05-03T16:55:13.664Z] [Data Connect] Successfully connected to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}
+[debug] [2025-05-03T16:55:13.672Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\" for Cloud Functions..."}}
+[debug] [2025-05-03T16:55:13.679Z] Validating nodejs source
+[debug] [2025-05-03T16:55:14.534Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "openid": "^2.0.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.57.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0",
+    "typescript-eslint": "^8.31.1"
+  },
+  "private": true
+}
+[debug] [2025-05-03T16:55:14.534Z] Building nodejs source
+[debug] [2025-05-03T16:55:14.535Z] Failed to find version of module node: reached end of search path C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-05-03T16:55:14.537Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-05-03T16:55:14.543Z] Found firebase-functions binary at 'C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8439
+
+[debug] [2025-05-03T16:55:22.430Z] Got response from /__/functions.yaml {"endpoints":{"steamCallback":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"steamCallback"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-05-03T16:55:27.453Z] defaultcredentials: writing to file C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json
+[debug] [2025-05-03T16:55:27.454Z] Setting GAC to C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dimad\\AppData\\Roaming\\firebase\\dimadima10022004_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: steamCallback. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: steamCallback."}}
+[info] +  functions[us-central1-steamCallback]: http function initialized (http://127.0.0.1:5001/steam-clone-app/us-central1/steamCallback). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/steam-clone-app/us-central1/steamCallback)."}}
+[debug] [2025-05-03T16:55:27.457Z] >>> [apiv2][query] GET http://127.0.0.1:9399/emulator/info [none]
+[debug] [2025-05-03T16:55:27.460Z] <<< [apiv2][status] GET http://127.0.0.1:9399/emulator/info 200
+[debug] [2025-05-03T16:55:27.460Z] <<< [apiv2][body] GET http://127.0.0.1:9399/emulator/info {"version":"","services":[{"serviceId":"gamestoreapp","connectionString":"dbname='fdcdb' host='127.0.0.1' port='5433' sslmode='disable' dbname='fdcdb'"}]}
+[debug] [2025-05-03T16:55:27.466Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth       │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Data Connect   │ 127.0.0.1:9399 │ n/a                              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions     │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2025-05-03T16:56:37.760Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T16:56:37.760Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T16:56:37.760Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T16:56:37.760Z"],"workRunningCount":1}
+[debug] [2025-05-03T16:56:37.761Z] Accepted request OPTIONS /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T16:56:37.762Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T16:56:37.763Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T16:56:37.771Z] [worker-pool] addWorker(us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-steamCallback)"}}
+[debug] [2025-05-03T16:56:37.772Z] [worker-pool] Adding worker with key us-central1-steamCallback, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-steamCallback, total=1"}}
+[debug] [2025-05-03T16:56:38.890Z] [runtime-status] [17796] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-05-03T16:56:38.891Z] [runtime-status] [17796] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T16:56:38.891Z] [runtime-status] [17796] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-05-03T16:56:38.892Z] [runtime-status] [17796] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T16:56:39.153Z] [runtime-status] [17796] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-05-03T16:56:39.153Z] [runtime-status] [17796] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-05-03T16:56:39.154Z] [runtime-status] [17796] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T16:56:39.196Z] [runtime-status] [17796] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-05-03T16:56:39.198Z] [runtime-status] [17796] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T16:56:39.198Z] [runtime-status] [17796] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-05-03T16:56:39.266Z] [runtime-status] [17796] initializeApp(DEFAULT) {"storageBucket":"steam-clone-app.firebasestorage.app","projectId":"steam-clone-app"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] initializeApp(DEFAULT) {\"storageBucket\":\"steam-clone-app.firebasestorage.app\",\"projectId\":\"steam-clone-app\"}"}}
+[debug] [2025-05-03T16:56:39.271Z] [runtime-status] [17796] Functions runtime initialized. {"cwd":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions","node_version":"20.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\",\"node_version\":\"20.17.0\"}"}}
+[debug] [2025-05-03T16:56:39.271Z] [runtime-status] [17796] Listening to port: \\?\pipe\fire_emu_c3da63113d3e57fa {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [17796] Listening to port: \\\\?\\pipe\\fire_emu_c3da63113d3e57fa"}}
+[debug] [2025-05-03T16:56:39.342Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE"}}
+[debug] [2025-05-03T16:56:39.342Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T16:56:39.343Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: BUSY"}}
+[debug] [2025-05-03T16:56:39.346Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 3.2293ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 3.2293ms"}}
+[debug] [2025-05-03T16:56:39.346Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE"}}
+[debug] [2025-05-03T16:56:39.346Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T16:56:39.346Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T16:56:39.347Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T16:56:39.347Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T16:56:39.347Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T16:56:39.347Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T16:56:39.347Z"],"workRunningCount":1}
+[debug] [2025-05-03T16:56:39.347Z] Accepted request POST /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T16:56:39.348Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T16:56:39.348Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T16:56:39.348Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T16:56:39.349Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: BUSY"}}
+[info] >  Stage 15: Firebase Function steamCallback invoked {"user":"Stage 15: Firebase Function steamCallback invoked","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 15: Firebase Function steamCallback invoked"}}
+[info] >  Stage 16: Request query: {} {"user":"Stage 16: Request query: {}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16: Request query: {}"}}
+[info] >  Stage 17: Verifying OpenID assertion {"user":"Stage 17: Verifying OpenID assertion","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 17: Verifying OpenID assertion"}}
+[info] >  Stage 18: OpenID verification error: { message: 'Invalid POST response from OpenID provider' } {"user":"Stage 18: OpenID verification error: { message: 'Invalid POST response from OpenID provider' }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18: OpenID verification error: { message: 'Invalid POST response from OpenID provider' }"}}
+[info] >  Stage 24: Steam verification error: { message: 'Invalid POST response from OpenID provider' } {"user":"Stage 24: Steam verification error: { message: 'Invalid POST response from OpenID provider' }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24: Steam verification error: { message: 'Invalid POST response from OpenID provider' }"}}
+[debug] [2025-05-03T16:56:39.478Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 129.3779ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 129.3779ms"}}
+[debug] [2025-05-03T16:56:39.479Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE"}}
+[debug] [2025-05-03T16:56:39.479Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T16:56:39.479Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T16:56:39.479Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T16:57:55.123Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T16:57:55.123Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T16:57:55.123Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T16:57:55.123Z"],"workRunningCount":1}
+[debug] [2025-05-03T16:57:55.123Z] Accepted request OPTIONS /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T16:57:55.124Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T16:57:55.125Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T16:57:55.125Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T16:57:55.125Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: BUSY"}}
+[debug] [2025-05-03T16:57:55.127Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 2.0375ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 2.0375ms"}}
+[debug] [2025-05-03T16:57:55.128Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE"}}
+[debug] [2025-05-03T16:57:55.128Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T16:57:55.128Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T16:57:55.128Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T16:57:55.128Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T16:57:55.128Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T16:57:55.128Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T16:57:55.128Z"],"workRunningCount":1}
+[debug] [2025-05-03T16:57:55.128Z] Accepted request POST /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T16:57:55.130Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T16:57:55.130Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T16:57:55.130Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T16:57:55.131Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: BUSY"}}
+[info] >  Stage 15: Firebase Function steamCallback invoked {"user":"Stage 15: Firebase Function steamCallback invoked","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 15: Firebase Function steamCallback invoked"}}
+[info] >  Stage 18: OpenID verification error: { message: 'Invalid POST response from OpenID provider' } {"user":"Stage 18: OpenID verification error: { message: 'Invalid POST response from OpenID provider' }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18: OpenID verification error: { message: 'Invalid POST response from OpenID provider' }"}}
+[info] >  Stage 24: Steam verification error: { message: 'Invalid POST response from OpenID provider' } {"user":"Stage 24: Steam verification error: { message: 'Invalid POST response from OpenID provider' }","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24: Steam verification error: { message: 'Invalid POST response from OpenID provider' }"}}
+[info] >  Stage 16: Request query: {} {"user":"Stage 16: Request query: {}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16: Request query: {}"}}
+[info] >  Stage 17: Verifying OpenID assertion {"user":"Stage 17: Verifying OpenID assertion","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 17: Verifying OpenID assertion"}}
+[debug] [2025-05-03T16:57:55.135Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 4.4423ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 4.4423ms"}}
+[debug] [2025-05-03T16:57:55.135Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: IDLE"}}
+[debug] [2025-05-03T16:57:55.135Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T16:57:55.136Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T16:57:55.136Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:00:34.879Z] File C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\index.ts changed, reloading triggers"}}
+[debug] [2025-05-03T17:00:35.887Z] Validating nodejs source
+[debug] [2025-05-03T17:00:37.001Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "openid": "^2.0.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.57.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0",
+    "typescript-eslint": "^8.31.1"
+  },
+  "private": true
+}
+[debug] [2025-05-03T17:00:37.001Z] Building nodejs source
+[debug] [2025-05-03T17:00:37.002Z] Failed to find version of module node: reached end of search path C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-05-03T17:00:37.003Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-05-03T17:00:37.008Z] Found firebase-functions binary at 'C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8052
+
+[debug] [2025-05-03T17:00:37.701Z] Got response from /__/functions.yaml {"endpoints":{"steamCallback":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"steamCallback"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-05-03T17:00:42.733Z] defaultcredentials: writing to file C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json
+[debug] [2025-05-03T17:00:42.733Z] Setting GAC to C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dimad\\AppData\\Roaming\\firebase\\dimadima10022004_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: steamCallback. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: steamCallback."}}
+[debug] [2025-05-03T17:00:42.734Z] [worker-pool] Shutting down IDLE worker (us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-steamCallback)"}}
+[debug] [2025-05-03T17:00:42.734Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: FINISHING"}}
+[debug] [2025-05-03T17:00:42.743Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: exited"}}
+[debug] [2025-05-03T17:00:42.744Z] [worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-102942fb-d3b5-4f4e-8aaa-b5af9939b5f8]: FINISHED"}}
+[debug] [2025-05-03T17:01:04.836Z] File C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\lib\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\lib\\index.js.map changed, reloading triggers"}}
+[debug] [2025-05-03T17:01:04.837Z] File C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\lib\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\lib\\index.js changed, reloading triggers"}}
+[debug] [2025-05-03T17:01:05.848Z] Validating nodejs source
+[debug] [2025-05-03T17:01:06.639Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "openid": "^2.0.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.57.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0",
+    "typescript-eslint": "^8.31.1"
+  },
+  "private": true
+}
+[debug] [2025-05-03T17:01:06.639Z] Building nodejs source
+[debug] [2025-05-03T17:01:06.639Z] Failed to find version of module node: reached end of search path C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-05-03T17:01:06.640Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-05-03T17:01:06.644Z] Found firebase-functions binary at 'C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8789
+
+[debug] [2025-05-03T17:01:07.180Z] Got response from /__/functions.yaml {"endpoints":{"steamCallback":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"steamCallback"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-05-03T17:01:12.201Z] defaultcredentials: writing to file C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json
+[debug] [2025-05-03T17:01:12.202Z] Setting GAC to C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dimad\\AppData\\Roaming\\firebase\\dimadima10022004_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: steamCallback. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: steamCallback."}}
+[debug] [2025-05-03T17:19:47.759Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:19:47.759Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:19:47.759Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:19:47.759Z"],"workRunningCount":1}
+[debug] [2025-05-03T17:19:47.759Z] Accepted request OPTIONS /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T17:19:47.761Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T17:19:47.761Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T17:19:47.761Z] [worker-pool] Cleaned up workers for us-central1-steamCallback: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-steamCallback: 1 --> 0"}}
+[debug] [2025-05-03T17:19:47.767Z] [worker-pool] addWorker(us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-steamCallback)"}}
+[debug] [2025-05-03T17:19:47.767Z] [worker-pool] Adding worker with key us-central1-steamCallback, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-steamCallback, total=1"}}
+[debug] [2025-05-03T17:19:48.890Z] [runtime-status] [2444] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-05-03T17:19:48.891Z] [runtime-status] [2444] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T17:19:48.892Z] [runtime-status] [2444] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-05-03T17:19:48.892Z] [runtime-status] [2444] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T17:19:49.162Z] [runtime-status] [2444] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-05-03T17:19:49.162Z] [runtime-status] [2444] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-05-03T17:19:49.163Z] [runtime-status] [2444] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T17:19:49.167Z] [runtime-status] [2444] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-05-03T17:19:49.169Z] [runtime-status] [2444] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T17:19:49.170Z] [runtime-status] [2444] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-05-03T17:19:49.239Z] [runtime-status] [2444] initializeApp(DEFAULT) {"storageBucket":"steam-clone-app.firebasestorage.app","projectId":"steam-clone-app"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] initializeApp(DEFAULT) {\"storageBucket\":\"steam-clone-app.firebasestorage.app\",\"projectId\":\"steam-clone-app\"}"}}
+[debug] [2025-05-03T17:19:49.244Z] [runtime-status] [2444] Functions runtime initialized. {"cwd":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions","node_version":"20.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\",\"node_version\":\"20.17.0\"}"}}
+[debug] [2025-05-03T17:19:49.244Z] [runtime-status] [2444] Listening to port: \\?\pipe\fire_emu_675b70b92a42c8f4 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [2444] Listening to port: \\\\?\\pipe\\fire_emu_675b70b92a42c8f4"}}
+[debug] [2025-05-03T17:19:49.330Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE"}}
+[debug] [2025-05-03T17:19:49.330Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T17:19:49.330Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY"}}
+[debug] [2025-05-03T17:19:49.333Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 2.7635ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 2.7635ms"}}
+[debug] [2025-05-03T17:19:49.333Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE"}}
+[debug] [2025-05-03T17:19:49.333Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T17:19:49.333Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T17:19:49.333Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:19:49.334Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:19:49.334Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:19:49.334Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:19:49.334Z"],"workRunningCount":1}
+[debug] [2025-05-03T17:19:49.334Z] Accepted request POST /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T17:19:49.334Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T17:19:49.335Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T17:19:49.335Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T17:19:49.335Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY"}}
+[info] >  Stage 15: Firebase Function steamCallback invoked {"user":"Stage 15: Firebase Function steamCallback invoked","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 15: Firebase Function steamCallback invoked"}}
+[info] >  Stage 16: Request query: {} {"user":"Stage 16: Request query: {}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16: Request query: {}"}}
+[info] >  Stage 16.1: Request body: { {"user":"Stage 16.1: Request body: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16.1: Request body: {"}}
+[info] >    'openid.ns': 'http://specs.openid.net/auth/2.0', {"user":"  'openid.ns': 'http://specs.openid.net/auth/2.0',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.ns': 'http://specs.openid.net/auth/2.0',"}}
+[info] >    'openid.mode': 'id_res', {"user":"  'openid.mode': 'id_res',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.mode': 'id_res',"}}
+[info] >    'openid.op_endpoint': 'https://steamcommunity.com/openid/login', {"user":"  'openid.op_endpoint': 'https://steamcommunity.com/openid/login',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.op_endpoint': 'https://steamcommunity.com/openid/login',"}}
+[info] >    'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053', {"user":"  'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053',"}}
+[info] >    'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053', {"user":"  'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053',"}}
+[info] >    'openid.return_to': 'http://localhost:5173/auth/steam/callback', {"user":"  'openid.return_to': 'http://localhost:5173/auth/steam/callback',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.return_to': 'http://localhost:5173/auth/steam/callback',"}}
+[info] >    'openid.response_nonce': '2025-05-03T17:18:34ZHyBQpNZnYoo7EBhtIAQxNtu18zg=', {"user":"  'openid.response_nonce': '2025-05-03T17:18:34ZHyBQpNZnYoo7EBhtIAQxNtu18zg=',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.response_nonce': '2025-05-03T17:18:34ZHyBQpNZnYoo7EBhtIAQxNtu18zg=',"}}
+[info] >    'openid.assoc_handle': '1234567890', {"user":"  'openid.assoc_handle': '1234567890',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.assoc_handle': '1234567890',"}}
+[info] >    'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle', {"user":"  'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',"}}
+[info] >    'openid.sig': '8UbuegT+JzeF2lB78olJqUaJ+iE=' {"user":"  'openid.sig': '8UbuegT+JzeF2lB78olJqUaJ+iE='","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.sig': '8UbuegT+JzeF2lB78olJqUaJ+iE='"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[info] >  Stage 18: OpenID verification error: Invalid POST response from OpenID provider {"user":"Stage 18: OpenID verification error: Invalid POST response from OpenID provider","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18: OpenID verification error: Invalid POST response from OpenID provider"}}
+[info] >  Stage 18.1: Error stack: undefined {"user":"Stage 18.1: Error stack: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18.1: Error stack: undefined"}}
+[info] >  Stage 24: Steam verification error: Invalid POST response from OpenID provider {"user":"Stage 24: Steam verification error: Invalid POST response from OpenID provider","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24: Steam verification error: Invalid POST response from OpenID provider"}}
+[info] >  Stage 24.1: Error stack: undefined {"user":"Stage 24.1: Error stack: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24.1: Error stack: undefined"}}
+[debug] [2025-05-03T17:19:49.351Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 15.8906ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 15.8906ms"}}
+[debug] [2025-05-03T17:19:49.351Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE"}}
+[debug] [2025-05-03T17:19:49.351Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T17:19:49.351Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T17:19:49.351Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] >  Stage 16.2: Request method: POST {"user":"Stage 16.2: Request method: POST","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16.2: Request method: POST"}}
+[info] >  Stage 17: Verifying OpenID assertion {"user":"Stage 17: Verifying OpenID assertion","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 17: Verifying OpenID assertion"}}
+[debug] [2025-05-03T17:20:33.511Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:20:33.511Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:20:33.511Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:20:33.511Z"],"workRunningCount":1}
+[debug] [2025-05-03T17:20:33.511Z] Accepted request OPTIONS /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T17:20:33.513Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T17:20:33.513Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T17:20:33.513Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T17:20:33.514Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY"}}
+[debug] [2025-05-03T17:20:33.517Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 3.7525ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 3.7525ms"}}
+[debug] [2025-05-03T17:20:33.519Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE"}}
+[debug] [2025-05-03T17:20:33.519Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T17:20:33.519Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T17:20:33.519Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:20:33.520Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:20:33.520Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:20:33.521Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:20:33.520Z"],"workRunningCount":1}
+[debug] [2025-05-03T17:20:33.521Z] Accepted request POST /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T17:20:33.523Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T17:20:33.523Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T17:20:33.523Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T17:20:33.523Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY"}}
+[info] >  Stage 15: Firebase Function steamCallback invoked {"user":"Stage 15: Firebase Function steamCallback invoked","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 15: Firebase Function steamCallback invoked"}}
+[info] >  Stage 18: OpenID verification error: Invalid POST response from OpenID provider {"user":"Stage 18: OpenID verification error: Invalid POST response from OpenID provider","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18: OpenID verification error: Invalid POST response from OpenID provider"}}
+[info] >  Stage 18.1: Error stack: undefined {"user":"Stage 18.1: Error stack: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18.1: Error stack: undefined"}}
+[info] >  Stage 24: Steam verification error: Invalid POST response from OpenID provider {"user":"Stage 24: Steam verification error: Invalid POST response from OpenID provider","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24: Steam verification error: Invalid POST response from OpenID provider"}}
+[info] >  Stage 16: Request query: {} {"user":"Stage 16: Request query: {}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16: Request query: {}"}}
+[info] >  Stage 16.1: Request body: { {"user":"Stage 16.1: Request body: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16.1: Request body: {"}}
+[info] >    'openid.ns': 'http://specs.openid.net/auth/2.0', {"user":"  'openid.ns': 'http://specs.openid.net/auth/2.0',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.ns': 'http://specs.openid.net/auth/2.0',"}}
+[info] >    'openid.mode': 'id_res', {"user":"  'openid.mode': 'id_res',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.mode': 'id_res',"}}
+[info] >    'openid.op_endpoint': 'https://steamcommunity.com/openid/login', {"user":"  'openid.op_endpoint': 'https://steamcommunity.com/openid/login',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.op_endpoint': 'https://steamcommunity.com/openid/login',"}}
+[info] >    'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561198821071910', {"user":"  'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561198821071910',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561198821071910',"}}
+[info] >    'openid.identity': 'https://steamcommunity.com/openid/id/76561198821071910', {"user":"  'openid.identity': 'https://steamcommunity.com/openid/id/76561198821071910',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.identity': 'https://steamcommunity.com/openid/id/76561198821071910',"}}
+[info] >    'openid.return_to': 'http://localhost:5173/auth/steam/callback', {"user":"  'openid.return_to': 'http://localhost:5173/auth/steam/callback',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.return_to': 'http://localhost:5173/auth/steam/callback',"}}
+[info] >    'openid.response_nonce': '2025-05-03T17:19:19ZbV3r0PVkkK72l0tgEAjUnoGF5Xc=', {"user":"  'openid.response_nonce': '2025-05-03T17:19:19ZbV3r0PVkkK72l0tgEAjUnoGF5Xc=',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.response_nonce': '2025-05-03T17:19:19ZbV3r0PVkkK72l0tgEAjUnoGF5Xc=',"}}
+[info] >    'openid.assoc_handle': '1234567890', {"user":"  'openid.assoc_handle': '1234567890',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.assoc_handle': '1234567890',"}}
+[info] >    'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle', {"user":"  'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',"}}
+[info] >    'openid.sig': '1I+6ybV9fIOrB/zmfvQqSoQwAwU=' {"user":"  'openid.sig': '1I+6ybV9fIOrB/zmfvQqSoQwAwU='","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.sig': '1I+6ybV9fIOrB/zmfvQqSoQwAwU='"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[info] >  Stage 16.2: Request method: POST {"user":"Stage 16.2: Request method: POST","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16.2: Request method: POST"}}
+[info] >  Stage 17: Verifying OpenID assertion {"user":"Stage 17: Verifying OpenID assertion","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 17: Verifying OpenID assertion"}}
+[debug] [2025-05-03T17:20:33.534Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 10.5385ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 10.5385ms"}}
+[debug] [2025-05-03T17:20:33.534Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE"}}
+[debug] [2025-05-03T17:20:33.534Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T17:20:33.535Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T17:20:33.535Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] >  Stage 24.1: Error stack: undefined {"user":"Stage 24.1: Error stack: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24.1: Error stack: undefined"}}
+[debug] [2025-05-03T17:22:14.571Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:22:14.571Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:22:14.571Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:22:14.571Z"],"workRunningCount":1}
+[debug] [2025-05-03T17:22:14.571Z] Accepted request OPTIONS /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T17:22:14.573Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T17:22:14.574Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T17:22:14.574Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T17:22:14.574Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY"}}
+[debug] [2025-05-03T17:22:14.577Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 2.593ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 2.593ms"}}
+[debug] [2025-05-03T17:22:14.578Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE"}}
+[debug] [2025-05-03T17:22:14.578Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T17:22:14.578Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T17:22:14.578Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:22:14.579Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:22:14.579Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:22:14.579Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:22:14.579Z"],"workRunningCount":1}
+[debug] [2025-05-03T17:22:14.579Z] Accepted request POST /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T17:22:14.582Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T17:22:14.582Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T17:22:14.582Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T17:22:14.583Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: BUSY"}}
+[info] >  Stage 15: Firebase Function steamCallback invoked {"user":"Stage 15: Firebase Function steamCallback invoked","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 15: Firebase Function steamCallback invoked"}}
+[info] >  Stage 16: Request query: {} {"user":"Stage 16: Request query: {}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16: Request query: {}"}}
+[info] >  Stage 18: OpenID verification error: Invalid POST response from OpenID provider {"user":"Stage 18: OpenID verification error: Invalid POST response from OpenID provider","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18: OpenID verification error: Invalid POST response from OpenID provider"}}
+[info] >  Stage 18.1: Error stack: undefined {"user":"Stage 18.1: Error stack: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18.1: Error stack: undefined"}}
+[info] >  Stage 24: Steam verification error: Invalid POST response from OpenID provider {"user":"Stage 24: Steam verification error: Invalid POST response from OpenID provider","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24: Steam verification error: Invalid POST response from OpenID provider"}}
+[info] >  Stage 24.1: Error stack: undefined {"user":"Stage 24.1: Error stack: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24.1: Error stack: undefined"}}
+[debug] [2025-05-03T17:22:14.590Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 8.9555ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 8.9555ms"}}
+[debug] [2025-05-03T17:22:14.593Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: IDLE"}}
+[debug] [2025-05-03T17:22:14.593Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T17:22:14.594Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T17:22:14.594Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] >  Stage 16.1: Request body: { {"user":"Stage 16.1: Request body: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16.1: Request body: {"}}
+[info] >    'openid.ns': 'http://specs.openid.net/auth/2.0', {"user":"  'openid.ns': 'http://specs.openid.net/auth/2.0',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.ns': 'http://specs.openid.net/auth/2.0',"}}
+[info] >    'openid.mode': 'id_res', {"user":"  'openid.mode': 'id_res',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.mode': 'id_res',"}}
+[info] >    'openid.op_endpoint': 'https://steamcommunity.com/openid/login', {"user":"  'openid.op_endpoint': 'https://steamcommunity.com/openid/login',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.op_endpoint': 'https://steamcommunity.com/openid/login',"}}
+[info] >    'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053', {"user":"  'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053',"}}
+[info] >    'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053', {"user":"  'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053',"}}
+[info] >    'openid.return_to': 'http://localhost:5173/auth/steam/callback', {"user":"  'openid.return_to': 'http://localhost:5173/auth/steam/callback',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.return_to': 'http://localhost:5173/auth/steam/callback',"}}
+[info] >    'openid.response_nonce': '2025-05-03T17:21:00Z2xISjTy2qsvISPwaw8MHwubIGNQ=', {"user":"  'openid.response_nonce': '2025-05-03T17:21:00Z2xISjTy2qsvISPwaw8MHwubIGNQ=',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.response_nonce': '2025-05-03T17:21:00Z2xISjTy2qsvISPwaw8MHwubIGNQ=',"}}
+[info] >    'openid.assoc_handle': '1234567890', {"user":"  'openid.assoc_handle': '1234567890',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.assoc_handle': '1234567890',"}}
+[info] >    'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle', {"user":"  'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',"}}
+[info] >    'openid.sig': 'oUM7M2r91tJuJ5OMMXxTSrKGnUA=' {"user":"  'openid.sig': 'oUM7M2r91tJuJ5OMMXxTSrKGnUA='","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.sig': 'oUM7M2r91tJuJ5OMMXxTSrKGnUA='"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[info] >  Stage 16.2: Request method: POST {"user":"Stage 16.2: Request method: POST","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16.2: Request method: POST"}}
+[info] >  Stage 17: Verifying OpenID assertion {"user":"Stage 17: Verifying OpenID assertion","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 17: Verifying OpenID assertion"}}
+[debug] [2025-05-03T17:28:59.612Z] File C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\index.ts changed, reloading triggers"}}
+[debug] [2025-05-03T17:29:00.616Z] Validating nodejs source
+[debug] [2025-05-03T17:29:01.674Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "openid": "^2.0.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.57.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0",
+    "typescript-eslint": "^8.31.1"
+  },
+  "private": true
+}
+[debug] [2025-05-03T17:29:01.674Z] Building nodejs source
+[debug] [2025-05-03T17:29:01.674Z] Failed to find version of module node: reached end of search path C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-05-03T17:29:01.675Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-05-03T17:29:01.680Z] Found firebase-functions binary at 'C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8386
+
+[debug] [2025-05-03T17:29:02.264Z] Got response from /__/functions.yaml {"endpoints":{"steamCallback":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"steamCallback"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-05-03T17:29:07.283Z] defaultcredentials: writing to file C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json
+[debug] [2025-05-03T17:29:07.283Z] Setting GAC to C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dimad\\AppData\\Roaming\\firebase\\dimadima10022004_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: steamCallback. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: steamCallback."}}
+[debug] [2025-05-03T17:29:07.284Z] [worker-pool] Shutting down IDLE worker (us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-steamCallback)"}}
+[debug] [2025-05-03T17:29:07.284Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: FINISHING"}}
+[debug] [2025-05-03T17:29:07.293Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: exited"}}
+[debug] [2025-05-03T17:29:07.293Z] [worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-b1febcf8-840d-4d4e-bc44-293580c7cb56]: FINISHED"}}
+[debug] [2025-05-03T17:29:09.842Z] File C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\lib\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\lib\\index.js.map changed, reloading triggers"}}
+[debug] [2025-05-03T17:29:09.842Z] File C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\lib\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\lib\\index.js changed, reloading triggers"}}
+[debug] [2025-05-03T17:29:10.855Z] Validating nodejs source
+[debug] [2025-05-03T17:29:11.652Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "openid": "^2.0.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.57.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0",
+    "typescript-eslint": "^8.31.1"
+  },
+  "private": true
+}
+[debug] [2025-05-03T17:29:11.652Z] Building nodejs source
+[debug] [2025-05-03T17:29:11.652Z] Failed to find version of module node: reached end of search path C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-05-03T17:29:11.653Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-05-03T17:29:11.657Z] Found firebase-functions binary at 'C:\Users\dimad\OneDrive\Desktop\ReactGameApp\GameStoreApp\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8301
+
+[debug] [2025-05-03T17:29:12.217Z] Got response from /__/functions.yaml {"endpoints":{"steamCallback":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"steamCallback"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-05-03T17:29:17.233Z] defaultcredentials: writing to file C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json
+[debug] [2025-05-03T17:29:17.234Z] Setting GAC to C:\Users\dimad\AppData\Roaming\firebase\dimadima10022004_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dimad\\AppData\\Roaming\\firebase\\dimadima10022004_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: steamCallback. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: steamCallback."}}
+[debug] [2025-05-03T17:32:50.074Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:32:50.074Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:32:50.074Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:32:50.074Z"],"workRunningCount":1}
+[debug] [2025-05-03T17:32:50.074Z] Accepted request OPTIONS /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T17:32:50.076Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T17:32:50.076Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T17:32:50.076Z] [worker-pool] Cleaned up workers for us-central1-steamCallback: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-steamCallback: 1 --> 0"}}
+[debug] [2025-05-03T17:32:50.082Z] [worker-pool] addWorker(us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-steamCallback)"}}
+[debug] [2025-05-03T17:32:50.082Z] [worker-pool] Adding worker with key us-central1-steamCallback, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-steamCallback, total=1"}}
+[debug] [2025-05-03T17:32:51.202Z] [runtime-status] [16440] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-05-03T17:32:51.204Z] [runtime-status] [16440] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T17:32:51.204Z] [runtime-status] [16440] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-05-03T17:32:51.205Z] [runtime-status] [16440] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T17:32:51.498Z] [runtime-status] [16440] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-05-03T17:32:51.498Z] [runtime-status] [16440] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-05-03T17:32:51.499Z] [runtime-status] [16440] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T17:32:51.503Z] [runtime-status] [16440] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-05-03T17:32:51.506Z] [runtime-status] [16440] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-05-03T17:32:51.506Z] [runtime-status] [16440] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-05-03T17:32:51.585Z] [runtime-status] [16440] initializeApp(DEFAULT) {"storageBucket":"steam-clone-app.firebasestorage.app","projectId":"steam-clone-app"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] initializeApp(DEFAULT) {\"storageBucket\":\"steam-clone-app.firebasestorage.app\",\"projectId\":\"steam-clone-app\"}"}}
+[debug] [2025-05-03T17:32:51.591Z] [runtime-status] [16440] Functions runtime initialized. {"cwd":"C:\\Users\\dimad\\OneDrive\\Desktop\\ReactGameApp\\GameStoreApp\\functions","node_version":"20.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\dimad\\\\OneDrive\\\\Desktop\\\\ReactGameApp\\\\GameStoreApp\\\\functions\",\"node_version\":\"20.17.0\"}"}}
+[debug] [2025-05-03T17:32:51.592Z] [runtime-status] [16440] Listening to port: \\?\pipe\fire_emu_25da09688ada2ac5 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[runtime-status] [16440] Listening to port: \\\\?\\pipe\\fire_emu_25da09688ada2ac5"}}
+[debug] [2025-05-03T17:32:51.610Z] [worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: IDLE"}}
+[debug] [2025-05-03T17:32:51.610Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T17:32:51.610Z] [worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: BUSY"}}
+[debug] [2025-05-03T17:32:51.618Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 7.9589ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 7.9589ms"}}
+[debug] [2025-05-03T17:32:51.619Z] [worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: IDLE"}}
+[debug] [2025-05-03T17:32:51.619Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T17:32:51.619Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T17:32:51.619Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:32:51.619Z] [work-queue] {"queuedWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:32:51.619Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-05-03T17:32:51.619Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/steam-clone-app/us-central1/steamCallback-2025-05-03T17:32:51.619Z"],"workRunningCount":1}
+[debug] [2025-05-03T17:32:51.619Z] Accepted request POST /steam-clone-app/us-central1/steamCallback --> us-central1-steamCallback
+[debug] [2025-05-03T17:32:51.620Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-05-03T17:32:51.620Z] [functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/steam-clone-app/us-central1/steamCallback, mapping to path=/"}}
+[debug] [2025-05-03T17:32:51.620Z] [worker-pool] submitRequest(triggerId=us-central1-steamCallback) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-steamCallback)"}}
+[info] i  functions: Beginning execution of "us-central1-steamCallback" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Beginning execution of \"us-central1-steamCallback\""}}
+[debug] [2025-05-03T17:32:51.621Z] [worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: BUSY"}}
+[info] >  Stage 15: Firebase Function steamCallback invoked {"user":"Stage 15: Firebase Function steamCallback invoked","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 15: Firebase Function steamCallback invoked"}}
+[info] >  Stage 16: Request query: {} {"user":"Stage 16: Request query: {}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16: Request query: {}"}}
+[info] >  Stage 16.1: Request body: { {"user":"Stage 16.1: Request body: {","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16.1: Request body: {"}}
+[info] >    'openid.ns': 'http://specs.openid.net/auth/2.0', {"user":"  'openid.ns': 'http://specs.openid.net/auth/2.0',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.ns': 'http://specs.openid.net/auth/2.0',"}}
+[info] >    'openid.mode': 'id_res', {"user":"  'openid.mode': 'id_res',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.mode': 'id_res',"}}
+[info] >    'openid.op_endpoint': 'https://steamcommunity.com/openid/login', {"user":"  'openid.op_endpoint': 'https://steamcommunity.com/openid/login',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.op_endpoint': 'https://steamcommunity.com/openid/login',"}}
+[info] >    'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053', {"user":"  'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.claimed_id': 'https://steamcommunity.com/openid/id/76561199031754053',"}}
+[info] >    'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053', {"user":"  'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.identity': 'https://steamcommunity.com/openid/id/76561199031754053',"}}
+[info] >    'openid.return_to': 'http://localhost:5173/auth/steam/callback', {"user":"  'openid.return_to': 'http://localhost:5173/auth/steam/callback',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.return_to': 'http://localhost:5173/auth/steam/callback',"}}
+[info] >    'openid.response_nonce': '2025-05-03T17:31:37ZAMCF+zZ+aCeYi4yNVVC1c9GuNBI=', {"user":"  'openid.response_nonce': '2025-05-03T17:31:37ZAMCF+zZ+aCeYi4yNVVC1c9GuNBI=',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.response_nonce': '2025-05-03T17:31:37ZAMCF+zZ+aCeYi4yNVVC1c9GuNBI=',"}}
+[info] >    'openid.assoc_handle': '1234567890', {"user":"  'openid.assoc_handle': '1234567890',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.assoc_handle': '1234567890',"}}
+[info] >    'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle', {"user":"  'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.signed': 'signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle',"}}
+[info] >    'openid.sig': 'DqSGVBE34w/arHtFd+GBlVhOiFM=' {"user":"  'openid.sig': 'DqSGVBE34w/arHtFd+GBlVhOiFM='","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m   'openid.sig': 'DqSGVBE34w/arHtFd+GBlVhOiFM='"}}
+[info] >  } {"user":"}","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m }"}}
+[info] >  Stage 18: OpenID verification error: Invalid POST response from OpenID provider {"user":"Stage 18: OpenID verification error: Invalid POST response from OpenID provider","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18: OpenID verification error: Invalid POST response from OpenID provider"}}
+[info] >  Stage 18.1: Error stack: undefined {"user":"Stage 18.1: Error stack: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18.1: Error stack: undefined"}}
+[warn] !  External network resource requested!
+   - URL: "https://steamcommunity.com/openid/login"
+ - Be careful, this may be a production service. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"External network resource requested!\n   - URL: \"https://steamcommunity.com/openid/login\"\n - Be careful, this may be a production service."}}
+[info] >  Stage 16.2: Request method: POST {"user":"Stage 16.2: Request method: POST","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 16.2: Request method: POST"}}
+[info] >  Stage 17: Verifying OpenID assertion {"user":"Stage 17: Verifying OpenID assertion","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 17: Verifying OpenID assertion"}}
+[info] >  Stage 24: Steam verification error: Invalid POST response from OpenID provider {"user":"Stage 24: Steam verification error: Invalid POST response from OpenID provider","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24: Steam verification error: Invalid POST response from OpenID provider"}}
+[info] >  Stage 24.1: Error stack: undefined {"user":"Stage 24.1: Error stack: undefined","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 24.1: Error stack: undefined"}}
+[debug] [2025-05-03T17:32:51.677Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-steamCallback" in 56.1684ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finished \"us-central1-steamCallback\" in 56.1684ms"}}
+[debug] [2025-05-03T17:32:51.677Z] [worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: IDLE"}}
+[debug] [2025-05-03T17:32:51.677Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-05-03T17:32:51.677Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-05-03T17:32:51.677Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] >  Stage 18.2: Steam endpoint response status: 302 {"user":"Stage 18.2: Steam endpoint response status: 302","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18.2: Steam endpoint response status: 302"}}
+[info] >  Stage 18.3: Steam endpoint response body: �                {"user":"Stage 18.3: Steam endpoint response body: \u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"\u001b[90m> \u001b[39m Stage 18.3: Steam endpoint response body: \u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"}}
+[debug] [2025-05-03T18:03:09.378Z] Received signal SIGHUP 1
+[info]  
+[info] i  emulators: Received SIGHUP for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGHUP signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[info] i  extensions: Stopping Extensions Emulator {"metadata":{"emulator":{"name":"extensions"},"message":"Stopping Extensions Emulator"}}
+[debug] [2025-05-03T18:03:09.387Z] [Extensions] Stopping Extensions emulator, this is a noop.
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  auth: Stopping Authentication Emulator {"metadata":{"emulator":{"name":"auth"},"message":"Stopping Authentication Emulator"}}
+[info] i  eventarc: Stopping Eventarc Emulator {"metadata":{"emulator":{"name":"eventarc"},"message":"Stopping Eventarc Emulator"}}
+[info] i  dataconnect: Stopping Data Connect Emulator {"metadata":{"emulator":{"name":"dataconnect"},"message":"Stopping Data Connect Emulator"}}
+[debug] [2025-05-03T18:03:09.440Z] [worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: exited"}}
+[debug] [2025-05-03T18:03:09.440Z] [worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-steamCallback"},"extension":{},"message":"[worker-us-central1-steamCallback-85eea156-3c6d-42d0-aff7-77534476fe2f]: FINISHED"}}
+[error] !!  dataconnect: Postgres threw an unexpected error, shutting down the Data Connect emulator: Error: read ECONNRESET {"metadata":{"emulator":{"name":"dataconnect"},"message":"Postgres threw an unexpected error, shutting down the Data Connect emulator: Error: read ECONNRESET"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  dataconnect: Stopping Data Connect Emulator {"metadata":{"emulator":{"name":"dataconnect"},"message":"Stopping Data Connect Emulator"}}
+[warn] !  dataconnect: Error stopping Data Connect Emulator {"metadata":{"emulator":{"name":"dataconnect"},"message":"Error stopping Data Connect Emulator"}}
+[info] i  tasks: Stopping Cloud Tasks Emulator {"metadata":{"emulator":{"name":"tasks"},"message":"Stopping Cloud Tasks Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2025-05-03T18:03:09.460Z] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
+[warn] !  Data Connect Emulator has exited upon receiving signal: SIGINT 
+[info] i  tasks: Stopping Cloud Tasks Emulator {"metadata":{"emulator":{"name":"tasks"},"message":"Stopping Cloud Tasks Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
+[debug] [2025-05-03T18:03:09.469Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[debug] [2025-05-03T18:03:09.470Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
