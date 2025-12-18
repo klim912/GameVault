@@ -1,0 +1,24 @@
+name: API Tests (Newman)
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  postman-api-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Newman
+        run: npm install -g newman
+
+      - name: Run Postman Collection
+        run: newman run gamestore_api_tests.json
