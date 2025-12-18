@@ -56,6 +56,7 @@ function Footer() {
               <div>
                 <Field
                   name="name"
+                  aria-label="Введення ім'я"
                   placeholder={t("name_placeholder")}
                   className="w-full px-3 py-2 bg-neutral-900/50 border border-lime-500/50 text-lime-400 rounded-sm placeholder-neutral-500 uppercase text-sm
                     focus:outline-none focus:border-lime-500 transition-all duration-300"
@@ -71,6 +72,7 @@ function Footer() {
                 <Field
                   as="textarea"
                   name="message"
+                  aria-label="Введення повідомлення"
                   placeholder={t("message_placeholder")}
                   rows={4}
                   className="w-full px-3 py-2 bg-neutral-900/50 border border-lime-500/50 text-lime-400 rounded-sm placeholder-neutral-500 uppercase text-sm
@@ -170,7 +172,7 @@ function Footer() {
         </a>
       </div>
 
-      <p className="text-center text-neutral-500 text-xs mt-8 uppercase tracking-wide">
+      <p className="text-center text-neutral-400 text-xs mt-8 uppercase tracking-wide">
         {t("copyright", { year: currentYear })}
       </p>
     </footer>

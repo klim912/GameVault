@@ -142,6 +142,7 @@ function Header() {
             type="text"
             placeholder={t("search_placeholder")}
             value={inputValue}
+            aria-label="Пошук ігор"
             onChange={handleSearchChange}
             className="w-full px-4 py-2 bg-neutral-900/50 border border-lime-500/50 text-lime-400 text-sm rounded-sm
               focus:outline-none focus:border-lime-500 placeholder-neutral-500 uppercase tracking-wide transition-all duration-300"
@@ -176,7 +177,7 @@ function Header() {
           </NavLink>
         </div>
 
-        <button className="lg:hidden text-lime-400" onClick={toggleNav}>
+        <button className="lg:hidden text-lime-400" aria-label="Відкрити меню" onClick={toggleNav}>
           {isNavOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
