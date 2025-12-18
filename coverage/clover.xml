@@ -1,23 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1766082244320" clover="3.2.0">
-  <project timestamp="1766082244321" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3" elements="19" coveredelements="19" complexity="0" loc="8" ncloc="8" packages="1" files="3" classes="3"/>
-    <file name="cartUtils.ts" path="C:\Users\Lenovo\Desktop\4kurs\GameStoreApp\src\utils\cartUtils.ts">
-      <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="3" count="2" type="cond" truecount="4" falsecount="0"/>
-      <line num="4" count="2" type="stmt"/>
-    </file>
-    <file name="gameUtils.ts" path="C:\Users\Lenovo\Desktop\4kurs\GameStoreApp\src\utils\gameUtils.ts">
-      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="3" count="3" type="cond" truecount="4" falsecount="0"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-    </file>
-    <file name="validationSchemas.ts" path="C:\Users\Lenovo\Desktop\4kurs\GameStoreApp\src\utils\validationSchemas.ts">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <line num="3" count="1" type="stmt"/>
-    </file>
+<coverage generated="1766087075967" clover="3.2.0">
+  <project timestamp="1766087075967" name="All files">
+    <metrics statements="38" coveredstatements="34" conditionals="14" coveredconditionals="11" methods="11" coveredmethods="10" elements="63" coveredelements="55" complexity="0" loc="38" ncloc="38" packages="2" files="4" classes="4"/>
+    <package name="pages">
+      <metrics statements="30" coveredstatements="26" conditionals="6" coveredconditionals="3" methods="8" coveredmethods="7"/>
+      <file name="Register.tsx" path="C:\Users\Lenovo\Desktop\4kurs\GameStoreApp\src\pages\Register.tsx">
+        <metrics statements="30" coveredstatements="26" conditionals="6" coveredconditionals="3" methods="8" coveredmethods="7"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="59" count="8" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="8" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="127" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <file name="cartUtils.ts" path="C:\Users\Lenovo\Desktop\4kurs\GameStoreApp\src\utils\cartUtils.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="gameUtils.ts" path="C:\Users\Lenovo\Desktop\4kurs\GameStoreApp\src\utils\gameUtils.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="validationSchemas.ts" path="C:\Users\Lenovo\Desktop\4kurs\GameStoreApp\src\utils\validationSchemas.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
