@@ -6,6 +6,15 @@ const cors = require('cors');
 const admin = require('firebase-admin');
 const QRCode = require('qrcode');
 const OTPAuth = require('otpauth');
+const rateLimit = require('express-rate-limit');
+
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, 
+    max: 100 
+});
+
+// Застосувати до всіх запитів
+app.use(limiter);
 
 const app = express();
 
